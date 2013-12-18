@@ -1,0 +1,16 @@
+{
+    "name": "masnun/randomuser-php",
+    "description": "Generate random users using the randomuser.me APIs",
+    "require": {
+        "guzzle/guzzle": "~3.7"
+    },
+    "require-dev": {
+        "guzzle/guzzle": "~3.7"
+    },
+    "authors": [
+        {
+            "name": "Abu Ashraf Masnun",
+            "email": "masnun@gmail.com"
+        }
+    ]
+}
