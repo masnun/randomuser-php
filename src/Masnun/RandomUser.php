@@ -4,8 +4,7 @@
  * URL: http://masnun.me
  */
 
-require_once 'vendor/autoload.php';
-
+namespace Masnun;
 use Guzzle\Http\Client;
 
 class RandomUser

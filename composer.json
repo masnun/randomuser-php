@@ -1,6 +1,6 @@
 {
     "name": "masnun/randomuser-php",
-    "description": "Generate random users using the randomuser.me APIs",
+    "description": "Generate random users using the randomuser.me API",
     "require": {
         "guzzle/guzzle": "~3.7"
     },
@@ -12,5 +12,12 @@
             "name": "Abu Ashraf Masnun",
             "email": "masnun@gmail.com"
         }
-    ]
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "Masnun": "src/"
+        }
+
+    }
 }

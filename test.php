@@ -4,8 +4,10 @@
  * URL: http://masnun.me
  */
 
-require_once 'RandomUser.php';
+require_once 'vendor/autoload.php';
 
-$users = RandomUser::generate('male', 5);
+use Masnun\RandomUser;
 
-var_dump((array)$users);
+$data = RandomUser::generate();
+
+var_dump($data);
