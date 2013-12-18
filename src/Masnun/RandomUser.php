@@ -14,7 +14,7 @@ class RandomUser
 
     public function __construct()
     {
-        throw new Exception("Use static method generate() instead");
+        throw new \Exception("Use static method generate() instead");
     }
 
     public static function  generate($gender = null, $limit = 0)

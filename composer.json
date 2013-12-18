@@ -19,5 +19,7 @@
             "Masnun": "src/"
         }
 
-    }
+    },
+
+    "license": "MIT"
 }
